@@ -113,7 +113,7 @@ function SystemConfigDialog() {
 						onChange={(e) => onInput(e.target.value, 'nickName')}
 					/>
 				</div>
-				<Label className='text-center text-base font-bold'>外部模型必须的Api Key</Label>
+				<Label className='text-center text-base font-bold'>外部模型Api Key</Label>
 				<div className='grid grid-cols-5 items-center gap-4'>
 					<Label className='text-right'>flux</Label>
 					<Input
@@ -144,12 +144,6 @@ function SystemConfigDialog() {
 					/>
 					<CopyContent content={form.openAiApiKey} />
 				</div>
-//				<Label className='text-center text-base font-bold'>Ollama本地模型Api Host</Label>
-//				<div className='grid grid-cols-5 items-center gap-4'>
-//					<Label className='text-right'>Host</Label>
-//					<Input disabled value={form.ollamaApiHost} className='col-span-3' />
-//					<CopyContent content={form.ollamaApiHost} />
-//				</div>
 			</div>
 		</BaseDialog>
 	)
