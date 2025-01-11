@@ -8,8 +8,8 @@ export const ModelTypeEnum = {
 export const ExternalModelHost = {
 	[ModelTypeEnum.openai]: 'https://api.openai.com/v1',
 	[ModelTypeEnum.ollama]: 'http://localhost:11434',
-	[ModelTypeEnum.gemini]: '',
-	[ModelTypeEnum.grok]: 'https://flux.drunkxiao.us.kg/v1'
+	[ModelTypeEnum.gemini]: 'https://gemini.trunkx.us.kg',
+	[ModelTypeEnum.grok]: 'https://flux.drunkxiao.us.kg'
 }
 
 // 本地第三方LLM 配置模型
