@@ -9,7 +9,7 @@ export const ExternalModelHost = {
 	[ModelTypeEnum.openai]: 'https://api.openai.com/v1',
 	[ModelTypeEnum.ollama]: 'http://localhost:11434',
 	[ModelTypeEnum.gemini]: 'https://gemini.trunkx.us.kg',
-	[ModelTypeEnum.grok]: 'https://flux.drunkxiao.us.kg'
+	[ModelTypeEnum.grok]: 'https://api.x.ai/v1'
 }
 
 // 本地第三方LLM 配置模型
@@ -37,12 +37,6 @@ export const ExternalChatModelList = [
 		model: 'gemini-2.0-flash-exp',
 		maxCount: 1000,
 		type: ModelTypeEnum.gemini
-	},
-	{
-		name: 'flux-1-schnell',
-		model: 'flux-1-schnell',
-		maxCount: 1000,
-		type: ModelTypeEnum.grok
 	}
 //	{
 //		name: 'gpt-4o',
