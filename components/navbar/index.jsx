@@ -18,7 +18,7 @@ export function AppNavbar() {
 
 			<div className='flex items-center gap-4'>
 				<ThemeToggle />
-				<Link href='https://drunkxiao.us.kg' target='_blank' title='Drunkxiao'>
+				<Link href='https://tekk.us.kg' target='_blank' title='Drunkxiao'>
 					<Github className='h-4 w-4 text-foreground' />
 				</Link>
 			</div>
