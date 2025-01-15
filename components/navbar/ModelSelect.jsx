@@ -92,7 +92,7 @@ export function ModelSelect() {
 				</SelectTrigger>
 				<SelectContent>
 					<SelectGroup>
-						<SelectLabel>默认模型</SelectLabel>
+//						<SelectLabel>默认模型</SelectLabel>
 						{models.map((model) => (
 							<SelectItem key={model.name} value={model.name}>
 								{model.name}
@@ -101,7 +101,7 @@ export function ModelSelect() {
 					</SelectGroup>
 					{isChatPath && (
 						<SelectGroup>
-							<SelectLabel>外部模型</SelectLabel>
+//							<SelectLabel>外部模型</SelectLabel>
 							{externalModels.map((model) => (
 								<SelectItem key={model.name} value={model.name} disabled={model.disabled}>
 									{model.name}
