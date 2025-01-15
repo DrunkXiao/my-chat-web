@@ -19,7 +19,7 @@ export function returnStreamText(stream) {
 }
 
 export function returnImage(response) {
-	return new Response(response, { headers: { 'Content-Type': 'image/png' } })
+	return new Response(response, { headers: { 'Content-Type': 'image/png;base64' } })
 }
 
 export function returnJsonError(msg, data = {}) {
