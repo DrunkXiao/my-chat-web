@@ -19,7 +19,6 @@ export async function GET(request) {
 	const response = await env.AI.run(model, {
 		prompt: prompt + promptDefault,
 		negative_prompt: negativePromptDefault,
-		'content-type': 'image/png;base64',
 		height: 1024,
 		width: 1024
 	})
