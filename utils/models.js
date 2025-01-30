@@ -27,12 +27,6 @@ export const ExternalChatModelList = [
 //		type: ModelTypeEnum.grok
 //	},
 	{
-		name: 'gemini-1.5-flash',
-		model: 'gemini-1.5-flash',
-		maxCount: 1000,
-		type: ModelTypeEnum.gemini
-	},
-	{
 		name: 'gemini-2.0-flash-exp',
 		model: 'gemini-2.0-flash-exp',
 		maxCount: 1000,
