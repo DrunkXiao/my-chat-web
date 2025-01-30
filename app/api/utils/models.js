@@ -2,7 +2,7 @@ export const aiModelList = [
 	{
 		tag: 'chat',
 		models: [
-			{ name: 'qwen1.5-14b', model: '@cf/qwen/qwen1.5-14b-chat-awq', maxCount: 1000 }
+			{ name: 'deepseek-qwen2.5', model: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b', maxCount: 1000 }
 //			{
 //				name: 'llama3.3-70b',
 //				model: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
@@ -24,13 +24,13 @@ export const aiModelList = [
 		tag: 'gen-image',
 		models: [
 			{
-				name: 'flux-1-schnell',
-				model: '@cf/black-forest-labs/flux-1-schnell',
+				name: 'stable-diffusion-xl',
+				model: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
 				maxCount: 1800
 			},
 			{
-				name: 'stable-diffusion-xl',
-				model: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
+				name: 'flux-1-schnell',
+				model: '@cf/black-forest-labs/flux-1-schnell',
 				maxCount: 1800
 			}
 			// {
