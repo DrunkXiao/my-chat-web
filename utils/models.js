@@ -6,7 +6,7 @@ export const ModelTypeEnum = {
 }
 
 export const ExternalModelHost = {
-	[ModelTypeEnum.openai]: 'https://tekk.deno.dev/api.groq.com/openai/v1',
+	[ModelTypeEnum.openai]: 'https://tekk.deno.dev/api.groq.com/openai',
 	[ModelTypeEnum.ollama]: 'http://localhost:11434',
 	[ModelTypeEnum.gemini]: 'https://gemini.tekk.us.kg',
 	[ModelTypeEnum.grok]: 'https://api.x.ai/v1'
@@ -21,7 +21,7 @@ export const ExternalChatModelList = [
 //		type: ModelTypeEnum.ollama
 //	},
 	{
-		name: 'deepseek-r1',
+		name: 'deepseek-r1 | groq',
 		model: 'deepseek-r1-distill-llama-70b',
 		maxCount: 1000,
 		type: ModelTypeEnum.openai
